@@ -1,5 +1,5 @@
 import React from 'react';
-import portrait from '../../images/';
+import portrait from '../../images/profile.jpg';
 import '../../styles/About.css';
 
 
