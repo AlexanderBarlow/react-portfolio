@@ -6,5 +6,7 @@ function Project() {
         <section className='section'>
             <h2>Portfolio Projects</h2>
         </section>
-    )
+    );
 }
+
+export default Project;

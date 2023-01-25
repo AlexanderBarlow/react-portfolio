@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Navbar.css'
 
-function Navbar() {
+function Navigation() {
     return (
         <nav className='navbar'>
             <a href='/'>About Me</a>
@@ -12,4 +12,4 @@ function Navbar() {
     );
 }
 
-export default Navbar;
+export default Navigation;
