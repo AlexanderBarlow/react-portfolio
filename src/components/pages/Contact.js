@@ -31,7 +31,7 @@ function Form() {
             return;
         }
         if (!checkPassword(password)) {
-            setErrorMessage(`Choose a more secure password for the account: ${userName}`);\
+            setErrorMessage(`Choose a more secure password for the account: ${userName}`);
             return;
         }
         alert(`Message sent successfully, thanks ${name}`)
