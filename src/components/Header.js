@@ -20,7 +20,7 @@ export default function Header() {
         if (currentPage === 'Portfolio') {
             return <Portfolio />;
         }
-        else {
+        else if (currentPage === 'Resume') {
             return <Resume />;
         }
     }
