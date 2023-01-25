@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { checkPassword, validateEmail } from '../utils/helpers';
+import { validateEmail } from '../utils/helpers';
 
 //React.Activity15/16
 function Form() {
@@ -30,10 +30,6 @@ function Form() {
 
             return;
         }
-        if (!checkPassword(password)) {
-            setErrorMessage(`Choose a more secure password for the account: ${userName}`);
-            return;
-        }
         alert(`Message sent successfully, thanks ${name}`)
     }
 
@@ -45,7 +41,7 @@ function Form() {
                 <input className='form-control' 
                 value={name} 
                 name='name' 
-                onChange={handInputChange}
+                onChange={handleInputChange}
                 type='text'
                 placeholder='name'
                 id='inputName' />

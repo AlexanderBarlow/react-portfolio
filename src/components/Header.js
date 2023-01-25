@@ -29,7 +29,7 @@ export default function Header() {
     
     return (
         <div>
-                <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+                <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
                 {renderPage()}
         </div>
     );
