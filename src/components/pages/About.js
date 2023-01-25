@@ -16,8 +16,8 @@ const styles = {
     list: {
         listStyle: 'none'
     },
-    container: {
-        alignItems: 'left'
+    body: {
+        
     }
 }
 
