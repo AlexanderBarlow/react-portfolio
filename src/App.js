@@ -7,7 +7,8 @@ import Footer from './components/Footer';
 const styles = {
     page: {
       background: "#2E294E",
-      color: '#FFF'
+      color: '#FFF',
+      height: '100%'
     }
 }
 

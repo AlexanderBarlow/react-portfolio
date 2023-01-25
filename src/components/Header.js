@@ -6,6 +6,15 @@ import Portfolio from './pages/Portfolio';
 import Resume from  './pages/Resume';
 import '../styles/Header.css';
 
+const styles = {
+    name: {
+        justifyContent: 'center'
+    },
+    display: {
+    
+    }
+}
+
 //React.Activity24
 export default function Header() {
     const [currentPage, setCurrentPage] = useState('About');
@@ -28,7 +37,8 @@ export default function Header() {
     const handlePageChange = (page) => setCurrentPage(page);
     
     return (
-        <div>
+        <div style={styles.display}>
+            <h1 style={styles.name}>Alexander Barlow</h1>
                 <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
                 {renderPage()}
         </div>
