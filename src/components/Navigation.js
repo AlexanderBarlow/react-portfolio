@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Navbar.css'
 
-function Navigation() {
+function Navigation(currentPage) {
     return (
         <nav className='navbar'>
             <a href='/'>About Me</a>

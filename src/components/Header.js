@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Navigation from './Navigation';
+import 
 
-import '../styles/Header.css'
+import '../styles/Header.css';
 
 function Header() {
     return (
