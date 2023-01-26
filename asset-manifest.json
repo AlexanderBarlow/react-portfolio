@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.c2cab247.css",
+    "main.js": "/react-portfolio/static/js/main.4f19464f.js",
+    "static/media/profile.jpg": "/react-portfolio/static/media/profile.4f5c40004b85a2e3d08e.jpg",
+    "static/media/Resume.pdf": "/react-portfolio/static/media/Resume.3ca79b69def19f06841d.pdf",
+    "static/media/password-tracker.png": "/react-portfolio/static/media/password-tracker.2ef2d3c1ed57fbfce150.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.c2cab247.css.map": "/react-portfolio/static/css/main.c2cab247.css.map",
+    "main.4f19464f.js.map": "/react-portfolio/static/js/main.4f19464f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2cab247.css",
+    "static/js/main.4f19464f.js"
+  ]
+}
