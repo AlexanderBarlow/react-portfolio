@@ -17,8 +17,8 @@ const styles = {
 export default function Footer() {
     return (
         <div style={styles.footer}>
-            <a href='https://github.com/alexanderbarlow' target='blank'><i style={styles.padding} class='fa-brands fa-github'></i></a>
-            <a href='https://www.linkedin.com/in/alexanderlbarlow/' target='_lank'><i style={styles.padding} class='fab fa-linkedin-in'></i></a>
+            <a href='https://github.com/alexanderbarlow' target='blank'><i style={styles.padding} class='fab fa-github-square'></i></a>
+            <a href='https://www.linkedin.com/in/alexanderlbarlow/' target='blank'><i style={styles.padding} icon='fab fa-linkedin-in glow'></i></a>
             <a href='mailto:alexanderbarlow7@gmail.com'><i style={styles.padding} class='fa fa-envolope' aria-hidden='true'></i></a>
         </div>
     );

@@ -11,7 +11,7 @@ const styles = {
         justifyContent: 'center'
     },
     display: {
-    
+        height: '100vh'
     }
 }
 

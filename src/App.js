@@ -8,7 +8,7 @@ const styles = {
     page: {
       background: "#2E294E",
       color: '#FFF',
-      height: '100%'
+      height: '100vh'
     }
 }
 
