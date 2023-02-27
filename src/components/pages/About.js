@@ -7,7 +7,9 @@ const styles = {
         width: '250px',
         backgroundPosition: 'center',
         height: '300px',
-        borderRadius: '10%'
+        borderRadius: '10%',
+        padding: '1%',
+        border: '5px 5px 5px #FFF'
     },
     display: {
         display: 'flex',
@@ -16,8 +18,13 @@ const styles = {
     list: {
         listStyle: 'none'
     },
-    body: {
-        
+    main: {
+        padding: '2%',
+        lineHeight: '50px'
+    },
+    upenn: {
+        color: '#3E6DBF',
+        text: 'bold',
     }
 }
 
@@ -28,10 +35,10 @@ export default function About () {
             <div style={styles.display}>
              <img class='img-fluid' style={styles.img} src={portrait} alt='self portrait'></img>
             </div>
-            <div>
+            <div style={styles.main}>
             <div class='container' >
                 <h2>Education</h2>
-                <p>I have an Associates of Arts in Computer Information Ssystems and Technology. Currently, I am persuing a certificate in Full-Stack Web Development at UPENN.</p>
+                <p>I have an Associates of Arts in Computer Information Ssystems and Technology. Currently, I am persuing a certificate in Full-Stack Web Development at <span style={styles.upenn}>UPENN</span>.</p>
             </div>
             <div >
                 <h2>Academic Achievements</h2>
